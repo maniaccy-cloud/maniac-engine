@@ -1,0 +1,149 @@
+MANIAC ENGINE END USER LICENSE AGREEMENT
+Version 1.0 - 23 November 2026
+
+This End User License Agreement (the "Agreement") is a legal agreement between you and Maniac Lab (Georgios
+Charilaou) ("Maniac Lab", "we", "us") for Maniac Engine. Please read it carefully. By installing, copying, opening or
+otherwise using Maniac Engine, or by selecting "I agree", you accept this Agreement. If you do not accept it, do not
+install or use Maniac Engine.
+
+If you accept this Agreement on behalf of a company or other legal entity, you confirm that you have the authority to
+bind it, and "you" means that entity.
+
+IN SHORT (a summary for convenience; the full terms below are what apply)
+- Maniac Engine is free to download and use: to learn, and to make and sell games and other products.
+- When a Product earns more than US$1,000,000 in Gross Revenue over its lifetime, you pay Maniac Lab a royalty of 2% of
+  the Gross Revenue above that amount. The first US$1,000,000 of every Product is royalty-free.
+- Before you release a Product (or within 30 days after), you send Maniac Lab a Release Notice.
+- Once a Product passes US$1,000,000, you report its Gross Revenue and pay the royalty every calendar quarter.
+- You may not sell or give away the Engine itself, its editor or its source code.
+- Contact: support@maniaclab.app
+
+1. DEFINITIONS
+"Engine" means Maniac Engine as made available by Maniac Lab: the editor and tools, the runtime libraries, the source
+code, and the content, templates, samples and documentation that come with it, including updates.
+"Engine Code" means the software of the Engine, in source code and in compiled (object code) form.
+"Product" means any game, application, interactive experience, film, video or other product or service that you make
+with the Engine or that includes any part of the Engine. The editions of one product for different platforms, and its
+updates, expansions and downloadable content, are one Product.
+"Gross Revenue" means all money, and the fair market value of anything else, received by you or by anyone on your behalf
+(including your affiliates, publishers, distributors and storefronts) from or in connection with a Product: for example
+sales, subscriptions, in-app purchases, downloadable content, virtual currency, advertising, sponsorships, rentals,
+licensing and prizes. Gross Revenue is counted before any deduction for platform or store fees, costs, commissions or
+taxes on income. The only amounts that may be deducted are refunds and chargebacks actually paid back to customers, and
+sales taxes, VAT or similar taxes collected from customers and paid to tax authorities.
+"Release" means making a Product available to the public, free or paid, including early access and paid betas.
+
+2. LICENSE
+2.1 Subject to this Agreement, Maniac Lab grants you a worldwide, non-exclusive, non-transferable, non-sublicensable
+license to:
+  (a) download, install, use and copy the Engine to develop, test and support Products;
+  (b) modify the Engine Code and make derivative works of it for use in your Products; and
+  (c) reproduce and distribute Products that include Engine Code (in compiled form only) and Engine content, as an
+      integral part of those Products, to end users anywhere, directly or through distributors and storefronts.
+2.2 Your end users may use the parts of the Engine in your Product only as part of that Product, under your own end
+user terms, which must not grant more rights in the Engine than this Agreement gives you.
+2.3 You may share Engine Code, including your changes to it, only with people who have accepted this Agreement, and
+only for work on Products.
+
+3. RESTRICTIONS
+You may not, and may not allow anyone else to:
+  (a) sell, rent, sublicense or distribute the Engine, its editor or the Engine Code (in source form, or in compiled
+      form other than as part of a Product), whether on its own, as a library, as a template or asset pack, or as part
+      of an engine, editor, toolset or development service;
+  (b) use the Engine to make a product whose main purpose is to be a game engine, editor or development tool that
+      competes with the Engine;
+  (c) remove or change any copyright, trademark or license notice in the Engine;
+  (d) use the Engine in breach of any law, including export control and sanctions laws; or
+  (e) use the names, logos or trademarks of Maniac Lab, except to state truthfully that your Product is made with
+      Maniac Engine (for example "Made with Maniac Engine", or the "Powered by Maniac Engine" start screen), without
+      suggesting that Maniac Lab endorses your Product.
+
+4. ROYALTY
+4.1 For each Product, you will pay Maniac Lab a royalty of two percent (2%) of all Gross Revenue from that Product
+above the first US$1,000,000 (one million United States dollars) of Gross Revenue from it, counted over the whole life
+of the Product from its first Release.
+4.2 No royalty is due on the first US$1,000,000 of Gross Revenue of each Product, or on a Product that has no Gross
+Revenue.
+4.3 The royalty is calculated and paid per calendar quarter (January to March, April to June, July to September,
+October to December). For each quarter in which the lifetime Gross Revenue of a Product is above US$1,000,000, you
+will send Maniac Lab, by email to support@maniaclab.app within forty-five (45) days after the end of the quarter, a
+royalty report showing the Gross Revenue of the Product for the quarter and for its whole life, by source, and you
+will pay the royalty due for that quarter.
+4.4 Payments are made in United States dollars, by the payment method that Maniac Lab gives you in reply to your
+royalty report. Gross Revenue received in another currency is converted at a reasonable market exchange rate for the
+last day of the quarter. Royalties are paid in full, without deduction of bank charges. If the law requires you to
+withhold tax from a payment, you will give Maniac Lab the receipts it needs to claim it.
+4.5 A late payment carries interest at one percent (1%) per month, or at the highest rate the law allows if that is
+lower, from the date it was due.
+4.6 You will keep complete and accurate records of the Gross Revenue of each Product for at least three (3) years after
+the quarter they relate to. Once in a calendar year, with at least thirty (30) days' written notice, Maniac Lab or an
+independent accountant it appoints may inspect those records. If an inspection shows that a quarter was underpaid by
+more than five percent (5%), you will pay the difference and the reasonable cost of the inspection.
+4.7 Different terms (for example a fixed fee instead of a royalty) apply only when Maniac Lab agrees to them in a
+separate written agreement signed by both parties.
+
+5. RELEASE NOTICE
+Before the first Release of each Product, and no later than thirty (30) days after it, you will send Maniac Lab a
+Release Notice by email to support@maniaclab.app, giving the name of the Product, your name or company name, its
+platforms and storefronts, its release date and a contact email address. The editor prepares this email for you (Send
+Release Notice, after Package Project).
+
+6. YOUR PRODUCTS
+You keep all rights in your Products and in the content you make. The Engine and the content of Maniac Lab in them
+remain Maniac Lab's. Maniac Lab claims no ownership of your Products.
+
+7. THIRD-PARTY SOFTWARE
+The Engine includes software and fonts made by others and licensed under their own open-source terms, which are listed
+with those terms in the LICENSES folder (THIRD_PARTY.md). Those components are governed by their own licenses, and
+nothing in this Agreement limits the rights those licenses give you. When you distribute a Product, you must include
+the notices those licenses require; Package Project copies them into the package for you.
+
+8. OWNERSHIP AND FEEDBACK
+The Engine is licensed, not sold. Maniac Lab and its licensors own all rights in the Engine; all rights that this
+Agreement does not expressly grant are reserved. If you send Maniac Lab suggestions or feedback, it may use them freely,
+without any obligation to you.
+
+9. UPDATES AND CHANGES
+Maniac Lab may release new versions of the Engine and of this Agreement. A new version of this Agreement applies to the
+versions of the Engine it comes with, once you accept it. The versions of the Engine you already have remain under the
+Agreement you accepted for them.
+
+10. TERM AND TERMINATION
+This Agreement lasts until it is terminated. You may terminate it at any time by deleting all your copies of the
+Engine. Maniac Lab may terminate it if you breach it and do not cure the breach within thirty (30) days after notice.
+When it ends, you must stop using the Engine and delete it. Copies of Products distributed to end users before it ended
+remain licensed to those end users. Sections 4 (for royalties already due and for records), 6, 8 and 10 to 14 survive
+the end of this Agreement.
+
+11. NO WARRANTY
+THE ENGINE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING ANY
+WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE OR NON-INFRINGEMENT, TO THE FULLEST EXTENT THE LAW
+ALLOWS. Maniac Lab does not warrant that the Engine is free of errors or that it will run without interruption.
+
+12. LIMITATION OF LIABILITY
+TO THE FULLEST EXTENT THE LAW ALLOWS, MANIAC LAB WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL
+OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, REVENUE, DATA OR GOODWILL, ARISING FROM THIS AGREEMENT OR THE ENGINE,
+EVEN IF IT WAS TOLD THEY WERE POSSIBLE. THE TOTAL LIABILITY OF MANIAC LAB UNDER THIS AGREEMENT WILL NOT EXCEED THE
+GREATER OF THE ROYALTIES YOU PAID IT IN THE TWELVE (12) MONTHS BEFORE THE CLAIM AND ONE HUNDRED UNITED STATES DOLLARS
+(US$100). Nothing in this Agreement limits any liability that the law does not allow to be limited.
+
+13. INDEMNITY
+You will defend Maniac Lab against claims by third parties arising from your Products or from your breach of this
+Agreement, and pay the damages and reasonable costs finally awarded or agreed in a settlement.
+
+14. GENERAL
+14.1 Governing law. This Agreement is governed by the laws of the country in which Maniac Lab is established, without
+regard to their conflict-of-laws rules, and the courts of that country have exclusive jurisdiction, except that Maniac
+Lab may seek urgent relief in any court.
+14.2 Assignment. You may not assign this Agreement without the written consent of Maniac Lab, except together with the
+whole of the business that owns the Product. Maniac Lab may assign it to a successor of its business.
+14.3 Entire agreement. This Agreement, with any separate written agreement under section 4.7, is the whole agreement
+between you and Maniac Lab about the Engine, and replaces anything said or written before.
+14.4 Severability and waiver. If a provision is found unenforceable, it is enforced as far as possible and the rest of
+this Agreement remains in effect. Not enforcing a provision is not a waiver of it.
+14.5 Notices. Notices to Maniac Lab go to support@maniaclab.app. Notices to you go to the email address you gave Maniac
+Lab, or are shown in the Engine.
+14.6 Electronic acceptance. Selecting "I agree" in the installer or when the editor first starts is your electronic
+signature, and has the same effect as signing this Agreement on paper.
+
+Questions about this Agreement: support@maniaclab.app
