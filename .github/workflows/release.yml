@@ -1,0 +1,45 @@
+# The release of the newest version, made here on GitHub: every build that latest.json names as a download of this
+# repository's release is fetched from the Maniac Store (store.maniaclab.app, where Maniac Lab publishes it), checked
+# against latest.json's size and SHA-256, and attached to the release v<version>. Nothing secret: only this
+# repository's own token.
+name: Release
+on:
+  push:
+    branches: [main]
+    paths: [latest.json, release-notes.md, .github/workflows/release.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: release
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch the builds from the store and check them
+        run: |
+          set -eu
+          V=$(jq -r .version latest.json)
+          PREFIX="https://github.com/${GITHUB_REPOSITORY}/releases/download/v$V/"
+          mkdir -p dl
+          jq -r '.builds[] | [.url, (.size|tostring), .sha256] | @tsv' latest.json | while IFS="$(printf '\t')" read -r url size sha; do
+            case "$url" in "$PREFIX"*) ;; *) echo "not on the release: $url"; continue ;; esac
+            name=${url#"$PREFIX"}
+            curl -fL --retry 5 --retry-delay 10 --connect-timeout 30 -o "dl/$name" "https://store.maniaclab.app/apps/$name"
+            [ "$(stat -c %s "dl/$name")" = "$size" ] || { echo "$name: size is not $size"; exit 1; }
+            printf '%s  %s\n' "$sha" "dl/$name" | sha256sum -c -
+          done
+          echo "V=$V" >> "$GITHUB_ENV"
+          ls -la dl
+      - name: Release v${{ env.V }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -eu
+          [ -n "$(ls dl)" ] || { echo "nothing to attach"; exit 1; }
+          if gh release view "v$V" >/dev/null 2>&1; then
+            gh release upload "v$V" dl/* --clobber
+            gh release edit "v$V" --notes-file release-notes.md --latest
+          else
+            gh release create "v$V" dl/* --title "Maniac Engine $V" --notes-file release-notes.md --latest
+          fi
