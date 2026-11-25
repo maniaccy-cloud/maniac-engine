@@ -7,4 +7,6 @@
 
 macos: [ManiacEngine-0.83-macos.zip](https://store.maniaclab.app/apps/ManiacEngine-0.83-macos.zip), SHA-256 `0761f54d79f5ea6b37feac5fc86fd37ad11227631ae62bf731fbe6edc3216a64`.
 
+maniacos: [ManiacEngine-0.80.mapp](https://store.maniaclab.app/apps/ManiacEngine-0.80.mapp), SHA-256 `d9c15e5435c94fccb392a537a9cc69f1eb09c34d0c689ceb70a039dd65024860`.
+
 The downloads only; the source code is not public. EULA.txt applies.

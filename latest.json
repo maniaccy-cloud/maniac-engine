@@ -4,8 +4,8 @@
  "builds": {
   "windows": {
    "url": "https://github.com/maniaccy-cloud/maniac-engine/releases/download/v0.83/ManiacEngine-0.83-windows-x64.zip",
-   "size": 70145827,
-   "sha256": "d42277c4a272abc3e1b9919a84dac10f4b14f8b8b0953e71f2b84c4583ca2242",
+   "size": 86810402,
+   "sha256": "dbcd57374931b40cfc47d2e9f56932e8824b32e182db717f85fcf9c73bdba8f6",
    "exe": "ManiacEngine.exe"
   },
   "linux": {
@@ -13,6 +13,12 @@
    "size": 102551615,
    "sha256": "d2982ed4e85b7be4ca3158fbb232540ecb0a79686e77eb6e0ff0495db464f507",
    "exe": "ManiacEngine"
+  },
+  "maniacos": {
+   "url": "https://store.maniaclab.app/apps/ManiacEngine-0.80.mapp",
+   "size": 96376110,
+   "sha256": "d9c15e5435c94fccb392a537a9cc69f1eb09c34d0c689ceb70a039dd65024860",
+   "exe": "ManiacEngine.mapp"
   },
   "macos": {
    "url": "https://store.maniaclab.app/apps/ManiacEngine-0.83-macos.zip",

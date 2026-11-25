@@ -10,9 +10,10 @@ This repository holds **the downloads only** (Releases). The source code of the 
 
 | System | File | SHA-256 |
 | --- | --- | --- |
-| Windows 10 / 11 (64-bit) | [ManiacEngine-0.83-windows-x64.zip](https://github.com/maniaccy-cloud/maniac-engine/releases/download/v0.83/ManiacEngine-0.83-windows-x64.zip) (70 MB) | `d42277c4a272abc3e1b9919a84dac10f4b14f8b8b0953e71f2b84c4583ca2242` |
+| Windows 10 / 11 (64-bit) | [ManiacEngine-0.83-windows-x64.zip](https://github.com/maniaccy-cloud/maniac-engine/releases/download/v0.83/ManiacEngine-0.83-windows-x64.zip) (87 MB) | `dbcd57374931b40cfc47d2e9f56932e8824b32e182db717f85fcf9c73bdba8f6` |
 | Linux (x86-64) | [ManiacEngine-0.83-linux-x86_64.tar.gz](https://github.com/maniaccy-cloud/maniac-engine/releases/download/v0.83/ManiacEngine-0.83-linux-x86_64.tar.gz) (103 MB) | `d2982ed4e85b7be4ca3158fbb232540ecb0a79686e77eb6e0ff0495db464f507` |
 | macOS 13.3+ (Apple Silicon) | [ManiacEngine-0.83-macos.zip](https://store.maniaclab.app/apps/ManiacEngine-0.83-macos.zip) (68 MB) | `0761f54d79f5ea6b37feac5fc86fd37ad11227631ae62bf731fbe6edc3216a64` |
+| Maniac OS (.mapp, signed) | [ManiacEngine-0.80.mapp](https://store.maniaclab.app/apps/ManiacEngine-0.80.mapp) (96 MB) | `d9c15e5435c94fccb392a537a9cc69f1eb09c34d0c689ceb70a039dd65024860` |
 
 Unpack it anywhere and open `ManiacEngine` (`Maniac Engine.app` on a Mac: the first time, right-click > Open, as it is
 not signed by Apple). On Maniac OS, Maniac Engine is in the Maniac Store. The editor updates itself
