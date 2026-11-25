@@ -1,12 +1,8 @@
-- Vulkan and DirectX 12: a lost graphics device now ends the game with a clear message; safer fences, buffers, swapchains and samplers.
-- Maniac Royale and other big games no longer crash at the start of a match on DirectX 12 and Vulkan.
-- Packaging never deletes an older good package; dedicated servers and Linux files are in the manifest and the archive.
-- AI: State Trees no longer restart after a save; better paths with ladders, jumps and shortcuts.
-- Animation: IK, root motion and blend space fixes.
-- Data Tables ask before throwing away changes; Enhanced Input, touch, Movie Render Queue and localization fixes.
+- Maniac RT (ray traced GI and reflections without RT hardware) now runs on Vulkan and DirectX 12, not only OpenGL.
+- Instanced meshes (trees, rocks, buildings placed in bulk) take part in Maniac RT on Vulkan and DirectX 12.
+- Games on Vulkan and DirectX 12 now use the project's quality preset and rendering settings.
+- Night looks the same on DirectX 12, Vulkan and OpenGL.
 
-macos: [ManiacEngine-0.83-macos.zip](https://store.maniaclab.app/apps/ManiacEngine-0.83-macos.zip), SHA-256 `0761f54d79f5ea6b37feac5fc86fd37ad11227631ae62bf731fbe6edc3216a64`.
-
-maniacos: [ManiacEngine-0.80.mapp](https://store.maniaclab.app/apps/ManiacEngine-0.80.mapp), SHA-256 `d9c15e5435c94fccb392a537a9cc69f1eb09c34d0c689ceb70a039dd65024860`.
+macos: [ManiacEngine-0.84-macos.zip](https://store.maniaclab.app/apps/ManiacEngine-0.84-macos.zip), SHA-256 `be543c551ef4c43189e34329a885dade850fd283cfdd721cd0bc566f6e044daf`.
 
 The downloads only; the source code is not public. EULA.txt applies.
