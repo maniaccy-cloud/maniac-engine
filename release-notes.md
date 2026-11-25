@@ -1,12 +1,10 @@
-- Vulkan and DirectX 12 for games: shadows, lamps with their own shadows, TAA, ambient occlusion, volumetric clouds and fog, stars, normal maps and local lights.
-- Maniac RT: ray-traced global illumination and reflections from distance fields and a surface cache, on any modern card.
-- Virtual Shadow Maps: sharp shadows from your feet to the horizon, cached so only what moves is drawn again.
-- Maniac Super Resolution and Maniac Frame Generation: more frames from the same card.
-- Motion Matching: characters pick the right pose from your motion capture.
-- Virtual reality through OpenXR, with VR Preview and a VR template.
-- Multi-User Editing: build one level together, live.
-- Landscape layers get Texture colour; many fixes.
+- Vulkan and DirectX 12: a lost graphics device now ends the game with a clear message; safer fences, buffers, swapchains and samplers.
+- Maniac Royale and other big games no longer crash at the start of a match on DirectX 12 and Vulkan.
+- Packaging never deletes an older good package; dedicated servers and Linux files are in the manifest and the archive.
+- AI: State Trees no longer restart after a save; better paths with ladders, jumps and shortcuts.
+- Animation: IK, root motion and blend space fixes.
+- Data Tables ask before throwing away changes; Enhanced Input, touch, Movie Render Queue and localization fixes.
 
-macos: [ManiacEngine-0.82-macos.zip](https://store.maniaclab.app/apps/ManiacEngine-0.82-macos.zip), SHA-256 `e3e67018aaff2d1e43ed5ce990861435cdaee56d3303eb94cbb2ff6439a22bdf`.
+macos: [ManiacEngine-0.83-macos.zip](https://store.maniaclab.app/apps/ManiacEngine-0.83-macos.zip), SHA-256 `0761f54d79f5ea6b37feac5fc86fd37ad11227631ae62bf731fbe6edc3216a64`.
 
 The downloads only; the source code is not public. EULA.txt applies.

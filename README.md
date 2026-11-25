@@ -6,13 +6,13 @@ only to what a game earns above US$1,000,000 - see [EULA.txt](EULA.txt).
 
 This repository holds **the downloads only** (Releases). The source code of the engine is not public.
 
-## Download (0.82, 2026-11-25)
+## Download (0.83, 2026-11-25)
 
 | System | File | SHA-256 |
 | --- | --- | --- |
-| Windows 10 / 11 (64-bit) | [ManiacEngine-0.82-windows-x64.zip](https://github.com/maniaccy-cloud/maniac-engine/releases/download/v0.82/ManiacEngine-0.82-windows-x64.zip) (87 MB) | `28a0663bcad1f8e8834aa00f3979e632817187d923a1c15cfefb775dafbcf7f3` |
-| Linux (x86-64) | [ManiacEngine-0.82-linux-x86_64.tar.gz](https://github.com/maniaccy-cloud/maniac-engine/releases/download/v0.82/ManiacEngine-0.82-linux-x86_64.tar.gz) (102 MB) | `5becff037e26e6bcbcffc4e2c411aafa9e653d84dd08f1f6e0bf107857b1101b` |
-| macOS 13.3+ (Apple Silicon) | [ManiacEngine-0.82-macos.zip](https://store.maniaclab.app/apps/ManiacEngine-0.82-macos.zip) (68 MB) | `e3e67018aaff2d1e43ed5ce990861435cdaee56d3303eb94cbb2ff6439a22bdf` |
+| Windows 10 / 11 (64-bit) | [ManiacEngine-0.83-windows-x64.zip](https://github.com/maniaccy-cloud/maniac-engine/releases/download/v0.83/ManiacEngine-0.83-windows-x64.zip) (70 MB) | `d42277c4a272abc3e1b9919a84dac10f4b14f8b8b0953e71f2b84c4583ca2242` |
+| Linux (x86-64) | [ManiacEngine-0.83-linux-x86_64.tar.gz](https://github.com/maniaccy-cloud/maniac-engine/releases/download/v0.83/ManiacEngine-0.83-linux-x86_64.tar.gz) (103 MB) | `d2982ed4e85b7be4ca3158fbb232540ecb0a79686e77eb6e0ff0495db464f507` |
+| macOS 13.3+ (Apple Silicon) | [ManiacEngine-0.83-macos.zip](https://store.maniaclab.app/apps/ManiacEngine-0.83-macos.zip) (68 MB) | `0761f54d79f5ea6b37feac5fc86fd37ad11227631ae62bf731fbe6edc3216a64` |
 
 Unpack it anywhere and open `ManiacEngine` (`Maniac Engine.app` on a Mac: the first time, right-click > Open, as it is
 not signed by Apple). On Maniac OS, Maniac Engine is in the Maniac Store. The editor updates itself
@@ -25,11 +25,9 @@ machine, without the user's computer. See [AI.md](AI.md) - the steps, and the sk
 
 ## What is new
 
-- Vulkan and DirectX 12 for games: shadows, lamps with their own shadows, TAA, ambient occlusion, volumetric clouds and fog, stars, normal maps and local lights.
-- Maniac RT: ray-traced global illumination and reflections from distance fields and a surface cache, on any modern card.
-- Virtual Shadow Maps: sharp shadows from your feet to the horizon, cached so only what moves is drawn again.
-- Maniac Super Resolution and Maniac Frame Generation: more frames from the same card.
-- Motion Matching: characters pick the right pose from your motion capture.
-- Virtual reality through OpenXR, with VR Preview and a VR template.
-- Multi-User Editing: build one level together, live.
-- Landscape layers get Texture colour; many fixes.
+- Vulkan and DirectX 12: a lost graphics device now ends the game with a clear message; safer fences, buffers, swapchains and samplers.
+- Maniac Royale and other big games no longer crash at the start of a match on DirectX 12 and Vulkan.
+- Packaging never deletes an older good package; dedicated servers and Linux files are in the manifest and the archive.
+- AI: State Trees no longer restart after a save; better paths with ladders, jumps and shortcuts.
+- Animation: IK, root motion and blend space fixes.
+- Data Tables ask before throwing away changes; Enhanced Input, touch, Movie Render Queue and localization fixes.
