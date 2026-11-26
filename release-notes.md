@@ -1,9 +1,9 @@
-- 2D like Godot: Character Body 2D (move_and_slide, slopes, one-way and moving platforms), exact 2D shapes, box and circle casts
-- Tile shapes (slopes, half tiles), one-way and animated tiles, Y-sort for top-down and isometric games
-- 2D navigation (regions, agents with avoidance, grid paths), Particles 2D and Skeleton 2D (cutout animation)
-- The look of Unreal: a sea without a white mirror, height fog in the sky's colour, cumulus clouds, weather (rain, snow, puddles)
-- Fixes: Movie Render Queue on its own copy of the level, lighting bakes kept when a build fails, input, animation sync, audio, saves, Vulkan / DirectX 12 UI
+- Maniac Assets: the engine's marketplace (like Fab) - Window > Maniac Assets searches it, signs in with your Maniac ID and adds assets to the project; sell your own on maniaclab.app/assets
+- Scripts change the weather and the level's settings while playing (Engine.set_weather, set_clouds, set_fog, set_sun, set_sky, set_post) and reach every component (actor:set_component)
+- The command line knows all 83 components and places the 2D actors and the weather; play --quality low for fast play-tests
+- Clouds without trails when the camera moves, leaves lit through by the lamps too (OpenGL, Vulkan, DirectX 12)
+- Project Browser: templates and recent projects scroll; a hang now leaves a report of where it stopped
 
-macos: [ManiacEngine-0.88-macos.zip](https://store.maniaclab.app/apps/ManiacEngine-0.88-macos.zip), SHA-256 `6bba21bf8aa6820e0fe22f2e527922c666a297004fa9eae52824a577e7a1aa80`.
+macos: [ManiacEngine-0.89-macos.zip](https://store.maniaclab.app/apps/ManiacEngine-0.89-macos.zip), SHA-256 `1c4bd9529e3598e855bec99314e117ecb87c1d316d88dc7089057014b6b22c7e`.
 
 The downloads only; the source code is not public. EULA.txt applies.

@@ -48,6 +48,10 @@ open one or create one (`project_templates`, then `project_create`).
 8. **Play-test**: `play --frames 300` runs the level as the game without a window and returns the log's errors and
    warnings, the scripts' output, `Engine.check` results, `Engine.report` values and a screenshot (the MCP answer
    includes the image). Look at the screenshot and the errors before saying something works.
+   A big level, or a machine without a graphics card (Maniac RT on, llvmpipe), plays much faster with `--quality low`
+   and/or `--render false` (only the last picture is drawn); loading itself takes a second or two.
+   Assets: `assets_search` finds models, sounds, 2D packs on Maniac Assets (free ones download with a Maniac ID:
+   `assets_signin`, then `assets_download <id>` into `Content/Assets/`).
 9. **Tests**: levels in `Content/Tests/` are the project's tests; `test` runs `validate` and plays each one.
 10. **Ship**: `package` (this computer's platform only) writes `Packaged/<Name>/`.
 
@@ -85,6 +89,16 @@ return Spinner
 - `Engine.find("Name")`, `Engine.find_all("Prefix")`, `Engine.spawn(...)`, `Engine.spawn_prefab(path, x, y, z, yaw)`,
   `Engine.after(seconds, fn)`, `Engine.log(...)`, `UI.text(...)`, `Input.action("jump")`, `Game` (a table all scripts share).
 - For automated checks: `Engine.check(ok, "what")`, `Engine.report("key", value)`, `Engine.quit()`.
+- Any component (2D and 3D) by its level-file key from `component_types`: `actor:component("pointLight")` (a table or
+  nil), `actor:set_component("pointLight", {intensity = 40})` (only the fields given change; added if missing),
+  `actor:has_component("sprite2d")`, `actor:remove_component("trigger")`. Physics bodies (rigidBody, character, vehicle,
+  rigidbody2d, characterbody2d) have their own functions.
+- The weather and the level's settings while playing: `Engine.set_weather{rain = 0.7, snow = 0, puddles = 0.6}`,
+  `Engine.set_clouds{coverage = 0.6, wind = 15}`, `Engine.set_time_of_day(18.5)`, `Engine.set_fog{density = 0.02}`,
+  `Engine.set_sun{intensity = 8}`, `Engine.set_sky{turbidity = 0.3}`, `Engine.set_post{bloomIntensity = 1}`; and
+  `Engine.weather()`, `clouds()`, `fog()`, `sun()`, `sky()`, `post()` as tables. Rain or snow over a whole level is
+  the `weather` component (`actor_spawn WeatherRain` / `WeatherSnow`); the `Rain` / `Snow` presets are particles in one
+  place only.
 - The engine's example scripts are good starting points: `file_read assets/scripts/CoinGame.lua` (also `Coin.lua`,
   `JumpPad.lua`, `Patrol.lua`, `Rotator.lua`, `Follower.lua`, `LightSwitch.lua`).
 
