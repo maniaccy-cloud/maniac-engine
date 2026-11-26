@@ -10,8 +10,9 @@ This repository holds **the downloads only** (Releases). The source code of the 
 
 | System | File | SHA-256 |
 | --- | --- | --- |
-| Windows 10 / 11 (64-bit) | [ManiacEngine-0.88-windows-x64.zip](https://github.com/maniaccy-cloud/maniac-engine/releases/download/v0.88/ManiacEngine-0.88-windows-x64.zip) (91 MB) | `c4c49322db6ddcdd9b2374db9dd6524e8c3beca0d639b5dbb80c8f07faf26f43` |
-| Linux (x86-64) | [ManiacEngine-0.88-linux-x86_64.tar.gz](https://github.com/maniaccy-cloud/maniac-engine/releases/download/v0.88/ManiacEngine-0.88-linux-x86_64.tar.gz) (90 MB) | `720666ee8f58e02a2bd21a9fc6777d503a605f17343859eba1d08b7cad85f0e8` |
+| Windows 10 / 11 (64-bit) | [ManiacEngine-0.88-windows-x64.zip](https://github.com/maniaccy-cloud/maniac-engine/releases/download/v0.88/ManiacEngine-0.88-windows-x64.zip) (91 MB) | `211accd6ff65ae9acb9d9e9b7b05d1cc09e8977665cc790f2f69d1f777c57e9d` |
+| Linux (x86-64) | [ManiacEngine-0.88-linux-x86_64.tar.gz](https://github.com/maniaccy-cloud/maniac-engine/releases/download/v0.88/ManiacEngine-0.88-linux-x86_64.tar.gz) (90 MB) | `364f3631f0b7b312bfbb8749e0afb18c55969999740bccbcf0049757890ca469` |
+| macOS 13.3+ (Apple Silicon) | [ManiacEngine-0.88-macos.zip](https://store.maniaclab.app/apps/ManiacEngine-0.88-macos.zip) (70 MB) | `6bba21bf8aa6820e0fe22f2e527922c666a297004fa9eae52824a577e7a1aa80` |
 
 Unpack it anywhere and open `ManiacEngine` (`Maniac Engine.app` on a Mac: the first time, right-click > Open, as it is
 not signed by Apple). On Maniac OS, Maniac Engine is in the Maniac Store. The editor updates itself

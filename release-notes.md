@@ -4,4 +4,6 @@
 - The look of Unreal: a sea without a white mirror, height fog in the sky's colour, cumulus clouds, weather (rain, snow, puddles)
 - Fixes: Movie Render Queue on its own copy of the level, lighting bakes kept when a build fails, input, animation sync, audio, saves, Vulkan / DirectX 12 UI
 
+macos: [ManiacEngine-0.88-macos.zip](https://store.maniaclab.app/apps/ManiacEngine-0.88-macos.zip), SHA-256 `6bba21bf8aa6820e0fe22f2e527922c666a297004fa9eae52824a577e7a1aa80`.
+
 The downloads only; the source code is not public. EULA.txt applies.
