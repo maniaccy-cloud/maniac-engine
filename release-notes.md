@@ -1,8 +1,7 @@
-- The editor's viewport drawn by Vulkan or DirectX 12 itself, with its grid and the selection's outline
-- Full gamepad support: PlayStation, Xbox and Switch button names, vibration, the light bar, the DualSense's adaptive triggers, motion and the touchpad
-- Network emulation: incoming packet loss (the Bad preset now loses packets both ways)
-- Fixes: bots no longer hit themselves with the Launcher, no white strip from rain by the camera, packaged games without the documentation
+- The whole editor viewport on Vulkan and DirectX 12: every view mode, Play and Simulate with the game's UI, Movie Render Queue
+- A vector as a table wherever three numbers are asked for: Building.can_place("Wall", {0, 0, 0}, ...)
+- Fixes: actor.fracture on the command line no longer crashes, actor:launch throws a swimmer across the water, Input.rebind_key warns in the log
 
-macos: [ManiacEngine-0.92-macos.zip](https://store.maniaclab.app/apps/ManiacEngine-0.92-macos.zip), SHA-256 `f27d597c7c10d03b306b376b16b0f933792d99a0531e2b44740cea777187552d`.
+macos: [ManiacEngine-0.93-macos.zip](https://store.maniaclab.app/apps/ManiacEngine-0.93-macos.zip), SHA-256 `4e6ffceea017d6f90b02c92a3612687bee558945c2b8dc2bbed0a1a305ffc31d`.
 
 The downloads only; the source code is not public. EULA.txt applies.
