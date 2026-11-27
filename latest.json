@@ -14,6 +14,12 @@
    "sha256": "91feb99914c1ed4eced912806009c4384a78e8cd9cd90be656f632a01d2b364c",
    "exe": "ManiacEngine"
   },
+  "maniacos": {
+   "url": "https://github.com/maniaccy-cloud/maniac-engine/releases/download/v0.90/ManiacEngine-0.90.mapp",
+   "size": 89545436,
+   "sha256": "a37415a88f80e2934c3129fe73e85dbadbb499bdf95d9a9980b2458a24a7fc32",
+   "exe": "ManiacEngine.mapp"
+  },
   "macos": {
    "url": "https://store.maniaclab.app/apps/ManiacEngine-0.90-macos.zip",
    "size": 71074757,
