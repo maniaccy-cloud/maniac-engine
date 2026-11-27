@@ -1,9 +1,9 @@
-- Maniac Assets: the engine's marketplace (like Fab) - Window > Maniac Assets searches it, signs in with your Maniac ID and adds assets to the project; sell your own on maniaclab.app/assets
-- Scripts change the weather and the level's settings while playing (Engine.set_weather, set_clouds, set_fog, set_sun, set_sky, set_post) and reach every component (actor:set_component)
-- The command line knows all 83 components and places the 2D actors and the weather; play --quality low for fast play-tests
-- Clouds without trails when the camera moves, leaves lit through by the lamps too (OpenGL, Vulkan, DirectX 12)
-- Project Browser: templates and recent projects scroll; a hang now leaves a report of where it stopped
+- 2D Top Down template: a Y-sorted meadow, a Character Body 2D hero, slimes that find their way (Navigation Agents 2D), gems with sparks (Particles 2D)
+- Skeleton 2D inverse kinematics: two-bone (an arm reaches a target) and look-at, in Details and from Lua (actor:set_ik2d)
+- One-way colliders and one-way tiles are one-way for the 2D rigid bodies too
+- The same picture on OpenGL, Vulkan and DirectX 12: metered auto exposure (rain, night), the sea's waves to the horizon, the same refraction
+- Weather like Unreal's: an overcast sky takes the sun at every quality, larger clouds, dimmer clouds at night; play-tests without a graphics card keep the picture
 
-macos: [ManiacEngine-0.89-macos.zip](https://store.maniaclab.app/apps/ManiacEngine-0.89-macos.zip), SHA-256 `1c4bd9529e3598e855bec99314e117ecb87c1d316d88dc7089057014b6b22c7e`.
+macos: [ManiacEngine-0.90-macos.zip](https://store.maniaclab.app/apps/ManiacEngine-0.90-macos.zip), SHA-256 `e6a8c71a44aecd3884d97ee037fbfdb021ef7c47d3f7a2baf3104196923cc8f6`.
 
 The downloads only; the source code is not public. EULA.txt applies.

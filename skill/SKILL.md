@@ -25,6 +25,7 @@ open one or create one (`project_templates`, then `project_create`).
 ## The workflow
 
 1. **Project**: `project_create` with a template - `Blank`, `ThirdPerson`, `FirstPerson`, `TopDown`, `UserInterface`,
+   `Multiplayer`, `Shooter`, `BattleRoyale`, `VR`, the 2D ones `Puzzle2D`, `Platformer2D`, `TopDown2D`, and
    `Showcase` - and a name (letters, digits, `_`, at most 20 characters).
 2. **Level**: `level_list`, `level_open`, or `level_create <Name> --template Empty|Blank|ThirdPerson|...`
    (`--startup true` makes it where the game starts).
@@ -48,8 +49,10 @@ open one or create one (`project_templates`, then `project_create`).
 8. **Play-test**: `play --frames 300` runs the level as the game without a window and returns the log's errors and
    warnings, the scripts' output, `Engine.check` results, `Engine.report` values and a screenshot (the MCP answer
    includes the image). Look at the screenshot and the errors before saying something works.
-   A big level, or a machine without a graphics card (Maniac RT on, llvmpipe), plays much faster with `--quality low`
-   and/or `--render false` (only the last picture is drawn); loading itself takes a second or two.
+   On a machine without a graphics card (llvmpipe) a play-test keeps the level's graphics and draws at 50 % size: the
+   picture looks as on a graphics card, only softer. `--quality low` is faster but is another picture (no sun shadows,
+   no volumetric fog: rain looks sunny) - never judge lighting, weather or colours from a `--quality low` shot.
+   `--render false` draws only the last picture; loading itself takes a second or two.
    Assets: `assets_search` finds models, sounds, 2D packs on Maniac Assets (free ones download with a Maniac ID:
    `assets_signin`, then `assets_download <id>` into `Content/Assets/`).
 9. **Tests**: levels in `Content/Tests/` are the project's tests; `test` runs `validate` and plays each one.
