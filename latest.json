@@ -1,29 +1,29 @@
 {
- "version": "0.91",
+ "version": "0.92",
  "date": "2026-11-27",
  "builds": {
   "windows": {
-   "url": "https://github.com/maniaccy-cloud/maniac-engine/releases/download/v0.91/ManiacEngine-0.91-windows-x64.zip",
-   "size": 86513042,
-   "sha256": "0deb72200632948631537e1536d98768fbc1f88c467a1178d3dab25ff80b161d",
+   "url": "https://github.com/maniaccy-cloud/maniac-engine/releases/download/v0.92/ManiacEngine-0.92-windows-x64.zip",
+   "size": 71708846,
+   "sha256": "1dfe8437aaf797f3689fdbb54e5126bcfdcafcccdd7ed74a183af3107d2a28c5",
    "exe": "ManiacEngine.exe"
   },
   "linux": {
-   "url": "https://github.com/maniaccy-cloud/maniac-engine/releases/download/v0.91/ManiacEngine-0.91-linux-x86_64.tar.gz",
-   "size": 101775772,
-   "sha256": "8fff411a4ac134c3304c182fef4718a89f28c0b0f88423b9fdb5f02492b0e6ec",
+   "url": "https://github.com/maniaccy-cloud/maniac-engine/releases/download/v0.92/ManiacEngine-0.92-linux-x86_64.tar.gz",
+   "size": 101907890,
+   "sha256": "ba0e15beed0ec7828e1717c50c1c1d1a772c7a289dbe46911fbcf4f24c0eea4f",
    "exe": "ManiacEngine"
   },
   "maniacos": {
-   "url": "https://github.com/maniaccy-cloud/maniac-engine/releases/download/v0.91/ManiacEngine-0.91.mapp",
-   "size": 100351494,
-   "sha256": "0e6175d0c6f7e059be52753804a2115a8b623e74b027b2c5b288dfdf04de9636",
+   "url": "https://github.com/maniaccy-cloud/maniac-engine/releases/download/v0.92/ManiacEngine-0.92.mapp",
+   "size": 100491215,
+   "sha256": "e18da5ddb036d031ea3fccb1647772c4af45d796a459e83ab26ab36f7b513aa9",
    "exe": "ManiacEngine.mapp"
   },
   "macos": {
-   "url": "https://store.maniaclab.app/apps/ManiacEngine-0.91-macos.zip",
-   "size": 68480980,
-   "sha256": "7a4dcd7b82771d9c3021e711bae30b74263e612977f51c3b99af3179966d7abf",
+   "url": "https://store.maniaclab.app/apps/ManiacEngine-0.92-macos.zip",
+   "size": 68578589,
+   "sha256": "f27d597c7c10d03b306b376b16b0f933792d99a0531e2b44740cea777187552d",
    "exe": "Maniac Engine.app"
   }
  }
