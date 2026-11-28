@@ -6,27 +6,32 @@ project, build levels, place actors and set their values, write Lua scripts, pla
 it. The assistant works through the engine's own program: the MCP server (`ManiacEngine --mcp <project>`) and the
 command line (`ManiacEngine --cmd ...`). The engine's source code is not public and is not needed.
 
-## 1. Install Maniac Engine
+## 1. Download Maniac Engine to your PC
 
 Download it from [maniaclab.app](https://maniaclab.app/en/engine/) or this repository's [Releases](https://github.com/maniaccy-cloud/maniac-engine/releases)
-and unpack it. Each download has its SHA-256 beside it.
+and unpack it, for example to `C:\Games\Maniac Engine`. Each download has its SHA-256 beside it.
 
-## 2. Connect your assistant
+## 2. Ask Claude on your PC
 
-- **Claude (Claude Desktop, Cowork on your computer, Claude Code)**: add the **Maniac Engine plugin**
-  (Customize > Plugins > Add > Upload plugin, with the plugin's zip). It has the skill that teaches Claude the engine
-  and starts your installed engine's MCP server. Work in a session that runs on your computer.
-- **Claude Code, by hand**: `claude mcp add --transport stdio maniac-engine -- "<engine folder>/ManiacEngine" --mcp "<project folder>"`
-- **Other MCP apps**: a stdio server with the command `<engine folder>/ManiacEngine(.exe)` and the arguments
-  `--mcp <project folder>`.
+Open the **Claude desktop app** and start **Claude Code** or **Cowork on your computer** (a session that runs on your
+PC, not in the cloud), then say where the engine is:
 
-Then ask, for example: "Make a third-person game in Maniac Engine with coins to collect, and play-test it."
+> Make my game with Maniac Engine, it's in C:\Games\Maniac Engine
+
+Claude reads the engine's guide (`AI\SKILL.md` in the engine folder) and works through its command line
+(`maniac ...` beside `ManiacEngine.exe`): it creates the project, builds the levels, writes the scripts, plays the game
+and looks at the screenshots, and packages it - all on your computer.
+
+Other assistants, or Claude with its tools always connected: the engine's MCP server, a stdio server with the command
+`<engine folder>/ManiacEngine(.exe)` and the arguments `--mcp <project folder>`. In Claude Code:
+`claude mcp add --transport stdio maniac-engine -- "<engine folder>/ManiacEngine" --mcp "<project folder>"`
 
 ## The skill
 
 [`skill/SKILL.md`](skill/SKILL.md) teaches an assistant the engine: the order of the work, the commands and their
 parameters, the conventions (paths, units, y up, colours), how scripts are written and tested, and the mistakes to
-avoid. The Maniac Engine plugin includes it. For Claude Code by hand, put it in `.claude/skills/maniac-engine/SKILL.md`.
+avoid. It is also in every download, in the engine's `AI` folder. To have Claude Code always know it, put it in
+`.claude/skills/maniac-engine/SKILL.md` (in a project, or in your home folder for every project).
 
 ## Linux servers and machines with no screen
 

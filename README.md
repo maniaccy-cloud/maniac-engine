@@ -19,11 +19,11 @@ Unpack it anywhere and open `ManiacEngine` (`Maniac Engine.app` on a Mac: the fi
 not signed by Apple). On Maniac OS, Maniac Engine is in the Maniac Store. The editor updates itself
 (Help > Check for Updates; Editor Preferences > Install Updates Automatically).
 
-## Making games with an AI assistant
+## Making games with Claude on your PC
 
-Connect Claude (or another assistant that speaks MCP) to the Maniac Engine on your computer and ask it to make a game:
-it creates the project, builds levels, writes Lua scripts, play-tests and packages through the engine's own MCP server.
-See [AI.md](AI.md) - how to connect it, and the skill file it uses.
+Download Maniac Engine to your PC, open the Claude desktop app (Claude Code or Cowork on your computer) and ask:
+"Make my game with Maniac Engine, it's in C:\Games\Maniac Engine". Claude creates the project, builds the levels,
+writes the scripts, plays it and packages it, on your computer. See [AI.md](AI.md).
 
 ## What is new
 
