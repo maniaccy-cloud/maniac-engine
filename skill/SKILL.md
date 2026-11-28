@@ -130,9 +130,10 @@ Lua that does not compile. Before writing a `.mlevel`, `.mprefab`, `.mui`, `.mgr
 Do not download or install Maniac Engine yourself, and do not run install scripts on your own machine. If neither the
 MCP tools nor the `ManiacEngine` program are available where you work, tell the user, and offer the ways to connect:
 
-- **Claude Code or Claude Desktop on the user's computer**: the user installs Maniac Engine from
-  https://maniaclab.app/en/engine/ and adds the Maniac Engine plugin (or the `maniac-engine` MCP server:
-  `ManiacEngine --mcp <project folder>`). Work in a session that runs on their computer.
+- **On the user's PC**: the user downloads Maniac Engine from https://maniaclab.app/en/engine/, opens the Claude
+  desktop app, starts Claude Code or Cowork on their computer and says where the engine is. There, use the command line
+  (`maniac <command> ...` beside `ManiacEngine.exe`, or `ManiacEngine --cmd <command> ... --json`) or the MCP server
+  (`ManiacEngine --mcp <project folder>`).
 - Until then, you can still help without the engine: plan the game, write the Lua scripts and the level layout, and give
   them to the user to put in their project.
 
