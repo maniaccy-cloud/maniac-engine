@@ -19,10 +19,11 @@ Unpack it anywhere and open `ManiacEngine` (`Maniac Engine.app` on a Mac: the fi
 not signed by Apple). On Maniac OS, Maniac Engine is in the Maniac Store. The editor updates itself
 (Help > Check for Updates; Editor Preferences > Install Updates Automatically).
 
-## For AI assistants (Claude and others)
+## Making games with an AI assistant
 
-Maniac Engine runs on a Linux machine with no screen: an assistant can make, play and package a game on its own
-machine, without the user's computer. See [AI.md](AI.md) - the steps, and the skill file to give the assistant.
+Connect Claude (or another assistant that speaks MCP) to the Maniac Engine on your computer and ask it to make a game:
+it creates the project, builds levels, writes Lua scripts, play-tests and packages through the engine's own MCP server.
+See [AI.md](AI.md) - how to connect it, and the skill file it uses.
 
 ## What is new
 

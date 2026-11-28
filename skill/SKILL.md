@@ -125,20 +125,19 @@ Lua that does not compile. Before writing a `.mlevel`, `.mprefab`, `.mui`, `.mgr
   the screenshots come back as usual - no X server, no xvfb. It needs Mesa's EGL (`libegl1 libgl1-mesa-dri` on
   Debian/Ubuntu; the error says so when it is missing). `--headless` forces it where a screen is.
 
-## On your own machine (no user's computer needed)
+## When the engine's tools are not there
 
-If the engine is not installed where you work (a Linux sandbox, a cloud machine), install it from its public downloads
-- GitHub, which such machines can usually reach:
+Do not download or install Maniac Engine yourself, and do not run install scripts on your own machine. If neither the
+MCP tools nor the `ManiacEngine` program are available where you work, tell the user, and offer the ways to connect:
 
-```
-curl -fsSL https://raw.githubusercontent.com/maniaccy-cloud/maniac-engine/main/install.sh | sh
-~/.local/share/ManiacEngine/ManiacEngine --cmd version --json
-```
+- **Claude Code or Claude Desktop on the user's computer**: the user installs Maniac Engine from
+  https://maniaclab.app/en/engine/ and adds the Maniac Engine plugin (or the `maniac-engine` MCP server:
+  `ManiacEngine --mcp <project folder>`). Work in a session that runs on their computer.
+- Until then, you can still help without the engine: plan the game, write the Lua scripts and the level layout, and give
+  them to the user to put in their project.
 
-Then make the game there with `--cmd` (or start `--mcp` yourself), play it headless and look at the screenshots, and
-`package` it for Linux; give the user the project folder (zipped) and the package. A Windows game is packaged on
-Windows (or by the user with their own editor from the project you give them).
-- `package` only makes a game for the platform the engine runs on.
+Other notes:
+- `package` only makes a game for the platform the engine runs on (a Windows game is packaged on Windows).
 - A failed `play` (`ran: false`) has the reason in `errors` and `logTail`.
 
 ## Documentation
