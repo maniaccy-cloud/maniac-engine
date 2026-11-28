@@ -1,8 +1,8 @@
 #!/bin/sh
 # Maniac Engine for Linux from its public downloads (github.com/maniaccy-cloud/maniac-engine: the releases, no source):
 # the newest version, checked against its SHA-256, unpacked into $MANIAC_ENGINE_HOME (~/.local/share/ManiacEngine).
-# For people and for AI assistants on a Linux machine with no screen: the engine draws headless there (EGL, Mesa).
-#   curl -fsSL https://raw.githubusercontent.com/maniaccy-cloud/maniac-engine/main/install.sh | sh
+# For Linux PCs and servers (also with no screen: the engine draws headless there with EGL, Mesa).
+# Download this file, read it, then run it:  sh install.sh
 set -eu
 REPO=maniaccy-cloud/maniac-engine
 DEST=${MANIAC_ENGINE_HOME:-$HOME/.local/share/ManiacEngine}
